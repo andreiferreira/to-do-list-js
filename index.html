@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+  
+    <link rel='stylesheet' type='text/css' href='./css/estilo.css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div>
+                <h4>LISTA DE TAREFAS</h4>
+            </div>
+            <div class="container">
+                    <h3 for="novaTarefa">Adicionar Tarefa:</h3>
+                <p>
+                    <input id="novaTarefa" type="text" placeholder="adicione uma tarefa...">
+                    <button id="adiciona">adicionar</button>  
+                </p>
+
+                <h3>TO-DO</h3>
+                <ul id="tarefasIncompletas">
+                    <li><input type="checkbox"><label>Tomar uma cerveja</label>
+                        <input type="text">
+                        <button class="edit">Editar</button>
+                        <button class="delete">Apagar</button>
+                    </li>
+                </ul>
+
+                <h3>Tarefas feitas</h3>
+                <ul id="tarefasCompletas">
+                    </li>
+                </ul>
+            </div>
+
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
